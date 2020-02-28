@@ -1,0 +1,178 @@
+.general-form {
+    position: fixed;
+	width: 481px;
+    height: 392px;
+    top: 50%;
+    left: 50%;
+    margin-top: -196px;
+    margin-left: -240px;
+	background: #F7F5F9;
+	border-radius: 12px;
+	
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+    
+}
+
+p#email {
+    position: absolute;
+    left: 60px;
+    top: 240px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+
+    color: #D0C9D6;
+    z-index: 1;
+}
+
+p#fio {
+    position: absolute;
+    left: 60px;
+    top: 93px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+
+    color: #D0C9D6;
+    z-index: 1;
+}
+
+p#phone {
+    position: absolute;
+    left: 60px;
+    top: 167px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+
+    color: #D0C9D6;
+    z-index: 1;
+}
+
+p#button {
+    position: absolute;
+    left:156px;
+    top: 317px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+p#question {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 40px;
+    top: 16px;
+    right: 273px;
+    bottom: 332px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    color: #3B3D43;
+    
+}
+input {
+    position: absolute;
+    width: 401px;
+    height: 48px;
+
+   /* box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);*/
+   border-radius: 6px;
+
+    z-index: 0;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    padding-left: 14px;
+}
+
+input:hover, input:focus {
+    background: #FFFFFF;
+    border: 1px solid #854FC8;
+
+    /* Dropshadow 1 */
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+}
+
+input#fio {
+    position: absolute;
+    left: 40px;
+    top: 86px;
+    
+}
+
+input#phone {
+    position: absolute;
+    left: 40px;
+    top: 160px;
+}
+
+input#email{
+    position: absolute;
+    left: 40px;
+    top: 233px;
+}
+
+input#button {
+    border: unset;
+    position: absolute;
+    left: 40px;
+    top: 305px;
+    background-color: #6979F8;
+
+    font-size: 17px;
+    line-height: 22px;
+
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Color/Neutral/6 - White */
+    color: #FFFFFF; 
+    
+}
+
+input#button:active {
+    background-color:#0e1ea0;
+}
